@@ -1762,7 +1762,7 @@ tile(Monitor *m)
 	if (n == 0)
 		return;
 
-	if (n > m->nmasteri) {
+	if (n > m->nmaster) {
 		mw = m->nmaster ? m->ww * m->mfact : 0;
 		ns = m->nmaster > 0 ? 2 : 1;
 	} else {
